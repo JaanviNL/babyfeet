@@ -24,7 +24,8 @@
     height: 2rem;
     border-radius: 0.1rem;
     padding: 0.3rem;
-    border: 2px solid #71717a;
+    background-color: #f1f5f9 ;
+    border: none   ;
 
 }
 
