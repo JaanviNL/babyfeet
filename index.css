@@ -5,7 +5,17 @@
     padding: 0;
 
 }
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background:var(--primary-btn); 
 
+  }
 .header{
 display: flex;
 flex-direction: column;
