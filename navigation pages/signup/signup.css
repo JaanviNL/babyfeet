@@ -1,0 +1,12 @@
+@import url("/index.css");
+@import url("/navigation pages/login/login.css");
+
+.login-s
+{
+height: 50rem;
+}
+.signup
+{
+    margin-top: 2rem;
+    height: 35rem;
+}
