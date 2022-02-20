@@ -6,11 +6,23 @@
 
 }
 
+.header{
+display: flex;
+flex-direction: column;
+position: relative;
+}
 .header-nav {
     display: flex;
     padding: 1rem 1rem 0.5rem 2rem;
     justify-content: space-between;
     align-items: center;
+    width: 81rem;
+    height: 5rem;
+    position: sticky;
+    top:0;
+    left:0;
+    z-index:999;
+    background-color: white;
 
 }
 
@@ -90,7 +102,7 @@
 {
     background-color:var(--primary-btn) ;
     margin-right: 1rem;
-    color: white;
+    color:var(--white);
     border: none;
 }
 
@@ -108,7 +120,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: white;
+    background-color: var(--white);;
     padding-bottom: 2rem;
     color:var(--primary-btn) ;
     width: 100%;

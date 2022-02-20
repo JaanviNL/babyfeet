@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,8 +9,9 @@
     <link rel="stylesheet" href="store.css">
     <title>Store</title>
 </head>
+
 <body>
-    
+
     <div>
 
         <div class="header-nav">
@@ -23,12 +25,146 @@
 
 
             <div class="link-nav ">
-                <a href="/index.html" class="link"><i class="fa fa-solid fa-store icon"></i></i>Home</a>
+                <a href="/index.html" class="link"><i class="fas fa fa-home icon"></i></i>Home</a>
                 <a href="" class="link"><i class="far fa-heart icon"></i>Wishlist</a>
                 <a href="" class="link"><i class="fas fa-shopping-cart icon"></i>Cart</a>
                 <a href="/navigation pages/login/login.html" class="link"><i class="far fa-user icon"></i>Account</a>
             </div>
         </div>
+
+        <div class="product-page">
+            <div class="filters">
+                <div>
+                    <label class="filter-label">Check Delivery Status</label>
+                    <div>
+                        <input class="input-pincode" placeholder="Enter Pincode here..">
+                        <button class="btn-link">CHECK</button>
+                    </div>
+                </div>
+
+                <form>
+                    <div class="flex-row">
+                        <h4>
+                            <i class="fas fa fa-filter icon"></i>Filter
+                        </h4>
+                        <button class="clr-btn">Clear All</button>
+                    </div>
+                    <div class="flex-column">
+                        <label class="filter-label">Gender</label>
+                        <label><input type="radio" name="gender" id=""> Girl</label>
+                        <label><input type="radio" name="gender" id=""> Boy</label>
+                    </div>
+
+                    <div class="flex-column">
+                        <label class="filter-label">Age</label>
+                        <label> <input type="checkbox" name="0-3M" id=""> 0 - 3M</label>
+                        <label> <input type="checkbox" name="3M-6M" id=""> 3M - 6M</label>
+                        <label> <input type="checkbox" name="6M-12M" id=""> 6M - 12M</label>
+                        <label> <input type="checkbox" name="12M-18M" id=""> 12M - 18M</label>
+                        <label> <input type="checkbox" name="18M-24M" id=""> 18M - 24M</label>
+                        <label> <input type="checkbox" name="2Y-4Y" id=""> 2Y - 4Y</label>
+                        <label> <input type="checkbox" name="4Y-6Y" id=""> 4Y - 6Y</label>
+                    </div>
+
+                    <div class="flex-column ">
+                        <label class="filter-label">Category</label>
+                        <div class=" flex-column overflow-c">
+                            <label> <input type="checkbox" name="Set & Suits" id=""> Set & Suits</label>
+                            <label> <input type="checkbox" name="Nightwear" id=""> Nightwear</label>
+                            <label> <input type="checkbox" name="Party Wear" id=""> Party Wear</label>
+                            <label> <input type="checkbox" name="Onesizes" id=""> Onesizes</label>
+                            <label> <input type="checkbox" name="Rompers" id=""> Rompers</label>
+                            <label> <input type="checkbox" name="Traditional" id=""> Traditional</label>
+                            <label> <input type="checkbox" name="Accessories" id=""> Accessories</label>
+                            <label> <input type="checkbox" name="Footwear" id=""> Footwear</label>
+                            <label> <input type="checkbox" name="Caps&Hats" id=""> Caps & Hats</label>
+                        </div>
+
+                    </div>
+
+                    <div class="flex-column">
+                        <label class="filter-label">Price</label>
+                        <label> <input type="checkbox" name="minimum" id=""> Rs.0 - Rs.500</label>
+                        <label> <input type="checkbox" name="medium" id=""> Rs.500 - Rs.1000</label>
+                        <label> <input type="checkbox" name="average" id=""> Rs.1000 - Rs.2000</label>
+                        <label> <input type="checkbox" name="max" id=""> Rs.2000 - Rs.3000</label>
+                    </div>
+
+
+
+                </form>
+            </div>
+           
+            <div class="products">
+                <div class="f-row">
+                    <p> Products (Showing All Products)</p>
+                    <select name="" id="" class="drop-down">
+                        <option value="">Sort By: Select</option>
+                        <option value="New Arrival">New Arrival</option>
+                        <option value="Price: High to Low">Price: High to Low</option>
+                        <option value="Price: Low to High">Price: Low to High</option>
+                        <option value="Popularity">Popularity</option>
+                        <option value="Highest Discount">Highest Discount</option>
+                    </select>
+
+                </div>
+
+                <div class="products-card">
+                    <div class="product-card">
+                        <span><i class="far fa-heart card-icon"></i></span>
+                        <img src="/assets/p-1.webp">
+                        <p class="info"> Lorem ipsum dolor sit amet consectetur.</p>
+                        <p class=" info price">Rs.340 <span class="strike">Rs.499</span></p>
+                        <button class="card-btn">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <span><i class="far fa-heart card-icon"></i></span>
+                        <img src="/assets/p-1.webp">
+                        <p class="info"> Lorem ipsum dolor sit amet consectetur.</p>
+                        <p class=" info price">Rs.340 <span class="strike">Rs.499</span></p>
+                        <button class="card-btn">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <span><i class="far fa-heart card-icon"></i></span>
+                        <img src="/assets/p-1.webp">
+                        <p class="info"> Lorem ipsum dolor sit amet consectetur.</p>
+                        <p class=" info price">Rs.340 <span class="strike">Rs.499</span></p>
+                        <button class="card-btn">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <span><i class="far fa-heart card-icon"></i></span>
+                        <img src="/assets/p-1.webp">
+                        <p class="info"> Lorem ipsum dolor sit amet consectetur.</p>
+                        <p class=" info price">Rs.340 <span class="strike">Rs.499</span></p>
+                        <button class="card-btn">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <span><i class="far fa-heart card-icon"></i></span>
+                        <img src="/assets/p-1.webp">
+                        <p class="info"> Lorem ipsum dolor sit amet consectetur.</p>
+                        <p class=" info price">Rs.340 <span class="strike">Rs.499</span></p>
+                        <button class="card-btn">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <span><i class="far fa-heart card-icon"></i></span>
+                        <img src="/assets/p-1.webp">
+                        <p class="info"> Lorem ipsum dolor sit amet consectetur.</p>
+                        <p class=" info price">Rs.340 <span class="strike">Rs.499</span></p>
+                        <button class="card-btn">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <span><i class="far fa-heart card-icon"></i></span>
+                        <img src="/assets/p-1.webp">
+                        <p class="info"> Lorem ipsum dolor sit amet consectetur.</p>
+                        <p class=" info price">Rs.340 <span class="strike">Rs.499</span></p>
+                        <button class="card-btn">Add to Cart</button>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
     </div>
 </body>
+
 </html>
