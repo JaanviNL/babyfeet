@@ -1,30 +1,30 @@
 @import url(/index.css);
 @import url(/store.css);
 
-.wishlist
-{
+.wishlist {
     color: var(--wishlist);
 }
+
 .products-card-w {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 2rem;
-     padding-left: 2rem;
+    padding-left: 2rem;
     margin: auto;
-    
+
 
 }
-.product-card
-{
+
+.product-card {
     margin-right: 1.5rem;
 }
-.center
-{
+
+.center {
     text-align: center;
     padding: 1.5rem;
 }
-.product-page
-{
+
+.product-page {
     margin: auto;
     padding-left: 16rem;
 }
