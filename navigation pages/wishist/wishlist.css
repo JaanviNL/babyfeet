@@ -4,6 +4,10 @@
 .wishlist {
     color: var(--wishlist);
 }
+.wishlist-p
+{
+    margin-top: -3rem;
+}
 
 .products-card-w {
     display: grid;
@@ -14,7 +18,21 @@
 
 
 }
+.remove-wishlist
+{
+    background-color: inherit;
+    color: var(--primary-btn);
+    border:0.1rem solid var(--primary-btn);
+    border-radius: 0px;
+    font-size: medium;
+    font-weight: 400;
+   
+}
 
+.remove-wishlist:hover{
+    background-color: var(--primary-btn);
+    color: white;
+}
 .product-card {
     margin-right: 1.5rem;
 }
